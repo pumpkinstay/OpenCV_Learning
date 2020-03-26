@@ -1,0 +1,10 @@
+opencv文件夹讲解：
+
+calib3d 相机的校准，和3D相关 
+core 重要。当前opencv的基础操作的内容。矩阵操作
+features2d 角点检测? 图像校准
+highgui 重要但是当前运用不到的：
+imgproc / imgcodecs 重要。滤波器，直方图变换，颜色处理
+ml 重要。机器学习模块 
+photo 重要。修复 去噪
+video 相关的，视频分解图像，图像合成视频。
