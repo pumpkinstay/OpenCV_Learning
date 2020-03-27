@@ -1,7 +1,7 @@
 
 # OpenCV
 
-[OpenCV Docs下载](https://docs.opencv.org/)
+[OpenCV各个版本的指导手册下载](https://docs.opencv.org/)
 各个模块和模块参数，如何使用等等
 
 ---
@@ -133,7 +133,7 @@ Haar和Adaboost的简单讲解<br>
 ---
 
 ### 14 Basic_Motion_Detectioin
-在video中进行简单的运动物体检测，给动着的东西绘制出方框。利用帧差检测。
+在video中进行简单的运动物体检测，绘制方框（基于帧差法的检测）。
 - 帧差：diff= cv2.absdiff(frame1,frame2)
 - 预处理
     - 灰度图：gray = cv2.cvtColor(diff,cv2.COLOR_BGR2GRAY) # gray
@@ -143,9 +143,9 @@ Haar和Adaboost的简单讲解<br>
 ---
 
 ### 15 Shape_Detection
-形状检测，多边形拟合曲线，画出多边形or圆形or星形
+几何形状检测，利用多边形拟合出几何曲线，在原图上描出几何形状的轮廓
 
 ---
 
 ### 16 Template_Matching
-简单的模板匹配，并标出方框，模板必须是原图的，不然匹配失败。代码20行
+利用简单的模板匹配实现目标检测，并用方框圈出目标。模板必须是原图的一部分，不然匹配失败。代码20行
