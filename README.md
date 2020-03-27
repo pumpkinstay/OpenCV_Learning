@@ -3,6 +3,7 @@
 
 [OpenCV各个版本的指导手册下载](https://docs.opencv.org/)
 各个模块和模块参数，如何使用等等
+[OpenCV-Python Tutorials](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html) 对代码有讲解
 
 ---
 ### Opencv-Basic.ipynb
